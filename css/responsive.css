@@ -1,0 +1,1238 @@
+@charset "utf-8";
+
+/*Laptops High DPI*/
+@media screen and (max-width: 1440px) and (min-width: 1250px) {
+
+    #nav_contact #social_links i {
+        margin: 0 0.5rem;
+    }
+
+    ul#main_nav {
+        padding-right: 2%;
+    }
+
+    main section#courses {
+        background-size: contain;
+    }
+
+    main section#about_us {
+        background-size: 100%;
+    }
+
+    #books {
+        padding-right: 9%;
+    }
+
+    section h2 {
+        padding: 3%;
+    }
+
+    article#parents h2 {
+        padding: 2rem;
+    }
+
+}
+
+/*Laptops Medium DPI*/
+@media screen and (max-width: 1250px) and (min-width: 950px) {
+
+    #social_links {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #nav_contact #social_links i {
+        margin: 0 0.7em;
+    }
+
+    img#hero_text {
+        padding-top: 4%;
+    }
+
+    main section#about_us {
+        background-size: 100%;
+    }
+
+    #books {
+        padding-right: 2%;
+        padding-bottom: 4rem;
+    }
+
+    #books div {
+        height: 60%;
+    }
+
+    section h2 {
+        padding: 3%;
+    }
+
+    main section#courses {
+        height: auto;
+    }
+
+    div#bottom_nav div {
+        padding-bottom: 3rem;
+    }
+
+    div#bottom_nav div i {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 1.2rem;
+    }
+
+    section#timetable {
+        padding: 3rem 1rem 0 1rem;
+    }
+
+    section#timetable table {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    article#parents {
+        background-image: url("../images/mesh2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+    }
+
+    article#parents p, article#parents h5 {
+
+        padding-left: 17rem;
+    }
+
+    ul#main_nav {
+        padding-right: 0;
+    }
+
+}
+
+/*Other*/
+@media screen and (min-width: 1200px) {
+    section#painting_news p.p4 {
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+
+    section#painting_news p.p3 {
+        margin-top: 22%;
+        margin-bottom: 19%;
+    }
+
+    section#painting_news p.p2 {
+        margin-top: 22%;
+        margin-bottom: 19%;
+    }
+
+}
+
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+    section#painting_news p.p4 {
+        margin-top: 9%;
+        margin-bottom: 10%;
+    }
+
+    section#painting_news p.p3 {
+        margin-top: 39%;
+        margin-bottom: 22%;
+    }
+
+    section#painting_news p.p2 {
+        margin-top: 29%;
+        margin-bottom: 22%;
+    }
+
+}
+
+@media screen and (max-width: 1200px) and (min-width: 991px) {
+    section#news_courses div.row {
+        max-width: 100%;
+    }
+
+    main .dots {
+        background-position-y: 78%;
+        background-position-x: 2%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .text-logo-odk {
+        font-size: medium;
+        flex: 4 0 0;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .text-logo-odk-small {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    div #social_links {
+        display: none;
+    }
+
+    nav.navbar {
+        margin-top: -1rem;
+    }
+
+    #nav_contact ul {
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    ul#main_nav {
+        padding-right: 0;
+    }
+
+    img#logo {
+        padding-left: 1rem;
+        max-width: 90%;
+    }
+
+    .navbar-brand {
+        padding-right: 0;
+        margin-right: 0.5rem;
+    }
+
+    .text-logo-odk-small {
+        display: block;
+        margin-bottom: 22px;
+        padding: 0.5rem;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Russo One', sans-serif;
+        color: white;
+        background-color: #2bbbad;
+        font-size: large;
+    }
+
+    .text-logo-odk {
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 1000px) and (min-width: 950px) {
+
+    section#team div.card {
+        padding: 4rem 0;
+    }
+
+    main section#about_us p {
+        text-align: left;
+        padding-bottom: 2rem;
+    }
+
+    div#bottom_nav {
+        max-width: 950px;
+    }
+
+    div#bottom_nav div:nth-child(4) {
+        padding-left: 4rem;
+    }
+
+}
+
+@media screen and (max-width: 991px) {
+    section#recent_post iframe {
+        height: 295px;
+    }
+
+    section#our_courses section:nth-child(even) {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    section#timetable {
+        padding: 3rem 1rem 0 1rem;
+    }
+
+    section#timetable table {
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    section#news_courses div.row {
+        max-width: 100%;
+    }
+
+    section#news .images {
+        justify-content: center;
+    }
+
+    section#about_us div.row:nth-child(even) {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    main .dots {
+        background-position-y: 78%;
+        background-position-x: 30%;
+    }
+
+    section#dances_news button, section#english_news button, section#painting_news button, section#singing_news button {
+        padding: 0.8rem;
+    }
+
+    section#dances_news, section#english_news, section#painting_news, section#singing_news img {
+        margin: 0 auto;
+        max-width: 70%;
+        height: auto;
+    }
+
+    section#dances_news, section#english_news, section#painting_news, section#singing_news iframe {
+        margin: 0 auto;
+        max-width: 70%;
+        height: auto;
+    }
+
+    section#dances_news .row, section#english_news .row, section#painting_news .row, section#singing_news .row{
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    section#news_courses div.row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section#news_courses div.row:last-of-type {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    section#news_courses div.col-6 {
+        display: flex;
+        max-width: 100%;
+        justify-content: center;
+    }
+
+    section#news_courses img {
+        margin-top: 2rem;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    section#timetable table {
+        display: none;
+    }
+
+    section#timetable_responsive {
+        margin-top: 3rem;
+    }
+
+    li.folk-text, li.eng-text, li.paint-text {
+        background-color: #333;
+        border: 1px solid #dee2e6;
+    }
+
+}
+
+@media screen and (min-width: 851px) {
+    section#timetable_responsive {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 551px) {
+    div#copyrights img {
+        padding-bottom: 1rem;
+    }
+}
+
+/*Tablets*/
+@media screen and (max-width: 950px) and (min-width: 767px) {
+
+    ul#main_nav {
+        padding-right: 0;
+    }
+
+    section#hero div {
+        padding-top: 8%;
+    }
+
+    section#team div.card {
+        padding: 4rem 0;
+    }
+
+    main section#about_us p {
+        text-align: left;
+        padding-bottom: 2rem;
+    }
+
+    main section#courses {
+        height: auto;
+    }
+
+    #books {
+        padding-right: 0;
+        padding-bottom: 3rem;
+    }
+
+    #books div {
+        height: 100%;
+    }
+
+    #teachers img {
+        margin-top: 3rem;
+    }
+
+    div#contact h4 {
+        font-size: 1.4rem;
+    }
+
+    div#bottom_nav {
+        padding-bottom: 3rem;
+        max-width: 850px;
+    }
+
+    div#bottom_nav div {
+        padding-bottom: 3rem;
+    }
+
+    div#bottom_nav div:nth-child(4) {
+        padding-left: 4rem;
+    }
+
+    div#contact a {
+        font-size: 1.3rem;
+    }
+
+    div#bottom_nav div i {
+        padding-bottom: 1.2rem;
+    }
+
+    article#parents {
+        background-image: url("../images/mesh2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+    }
+
+    article#parents h2 {
+        padding: 6rem;
+    }
+
+    article#parents p, article#parents h5 {
+
+        padding-left: 17rem;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    section#recent_post iframe {
+        height: 218px;
+    }
+
+    section#news div.col-8 {
+        max-width: 100%;
+        order: 1;
+    }
+
+    section#news div.container {
+        padding-top: 3rem;
+        order: 2;
+    }
+
+    section#news div.col-4 {
+        order: 3;
+        padding-left: 1rem;
+        padding-top: 5rem;
+    }
+
+    section#news div.images {
+        padding-top: 5rem;
+        order: 2;
+    }
+
+    section#news div.images a {
+        display: flex;
+        flex-direction: column;
+        max-width: 50%;
+    }
+
+    img#logo {
+        max-width: 80%;
+        padding-top: 1rem;
+    }
+
+    .text-logo-odk-small {
+        margin-bottom: 5px;
+    }
+
+    #main_nav li {
+        text-align: center;
+    }
+
+    article#news h4, article#news p {
+        padding: 0 1rem;
+    }
+
+}
+
+@media screen and (max-width: 767px) and (min-width: 550px) {
+    img#logo {
+        padding-left: 2rem;
+    }
+
+    .navbar {
+        padding: 0 0 1rem 0;
+    }
+
+    nav.navbar {
+        margin-top: 0;
+    }
+
+    .navbar-toggler-icon {
+        position: relative;
+        top: 7px;
+    }
+
+
+    #main_nav li {
+        padding: 0.5rem 3.5rem;
+    }
+
+    main.dots {
+        background-position-y: center;
+        background-position-x: -12%;
+    }
+
+    #nav_contact ul {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+    section#hero {
+        background-size: contain;
+    }
+
+    section#hero div {
+        padding-top: 2%;
+    }
+
+    section#hero img {
+        margin-left: 1.5rem;
+    }
+
+    section#hero h1 {
+        margin-bottom: 0;
+    }
+
+    section#hero button {
+        padding: 10px 35px;
+        font-size: 0.8rem;
+    }
+
+    main section#teachers h2 {
+        padding-top: 3rem;
+    }
+
+    main section#teachers button {
+        padding: 10px 55px;
+        font-size: 0.8rem;
+    }
+
+    main section#about_us p {
+        text-align: left;
+        padding-bottom: 2rem;
+    }
+
+    main section#courses {
+        height: auto;
+    }
+
+    section#team img {
+        max-width: 70%;
+        margin: 0 auto;
+    }
+
+    #books {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 1rem 2rem;
+    }
+
+    .cyan-book {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: 100%;
+        height: 60%;
+    }
+
+    .yellow-book {
+        width: 100%;
+        height: 60%;
+    }
+
+    #teachers img {
+        margin-top: 3rem;
+    }
+
+    article#news {
+        margin-top: 0;
+    }
+
+    article#news div.col {
+        padding: 0 2rem;
+    }
+
+    article#news img {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    div#contact {
+        margin-top: 5rem;
+    }
+
+    div#contact div {
+        padding-bottom: 3rem;
+        padding-right: 5rem;
+    }
+
+    div#contact img {
+        margin-top: 4rem;
+    }
+
+    div#contact h4 {
+        margin-top: 5rem;
+        font-size: 1.2rem;
+    }
+
+    div#contact a {
+        font-size: 1.4rem;
+    }
+
+    div#bottom_nav {
+        max-width: 700px;
+        margin-top: 24rem;
+        padding-bottom: 3rem;
+    }
+
+    div#bottom_nav div {
+        padding-bottom: 3rem;
+    }
+
+    section#our_courses section:last-of-type {
+        padding-bottom: 5rem;
+    }
+
+    section#news div.row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    article#parents {
+        background-image: url("../images/mesh2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 620px;
+        margin-bottom: 10rem;
+    }
+
+    article#parents img {
+        display: block;
+        margin: 0 auto;
+        max-width: 40%;
+        float: none !important;
+    }
+
+    article#parents h2 {
+        padding: 1rem;
+    }
+
+    article#parents p, article#parents h5 {
+        padding-left: 0;
+    }
+
+    article#parents p {
+        padding-top: 1rem;
+        padding-bottom: 0;
+    }
+
+}
+
+@media screen and (max-width: 600px) and (min-width: 550px) {
+    section#hero div {
+        padding-top: 0;
+    }
+
+    section#hero img {
+        width: 70%;
+        margin-left: 5rem;
+    }
+
+    main section#about_us p {
+        text-align: left;
+        padding: 0 1rem 2rem 1rem;
+    }
+}
+
+@media screen and (max-width: 550px) and (min-width: 320px) {
+    img#logo {
+        padding-left: 2rem;
+    }
+
+    .navbar {
+        padding: 0 0 1rem 0;
+    }
+
+    nav.navbar {
+        margin-top: 0;
+    }
+
+    .navbar-toggler-icon {
+        position: relative;
+        top: 7px;
+    }
+
+    #main_nav li {
+        padding: 0.3rem 2.5rem;
+    }
+
+    #nav_contact div a i {
+        font-size: 1.2rem;
+    }
+
+    section#hero {
+        background-size: contain;
+    }
+
+    main section#about_us p {
+        text-align: left;
+        padding: 0 1rem 2rem 1rem;
+    }
+
+    section#hero div {
+        padding-top: 0;
+    }
+
+    section#hero img {
+        width: 70%;
+        margin-left: 4rem;
+    }
+
+    section#hero button {
+        padding: 10px 35px;
+        font-size: 0.8rem;
+    }
+
+    main section#teachers h2 {
+        padding-top: 2rem;
+    }
+
+    main section#teachers button {
+        padding: 10px 55px;
+        font-size: 0.8rem;
+    }
+
+    section#hero h1 {
+        margin-bottom: 0.5rem;
+    }
+
+    section#hero button {
+        padding: 8px 25px;
+        font-size: 0.6rem;
+    }
+
+    main section#courses {
+        height: auto;
+    }
+
+    #books {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 1rem 2rem;
+    }
+
+    .cyan-book {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        width: 100%;
+        height: 60%;
+    }
+
+    .yellow-book {
+        width: 100%;
+        height: 60%;
+    }
+
+    #teachers img {
+        margin-top: 3rem;
+    }
+
+    section#team img {
+        max-width: 60%;
+        margin: 0 auto;
+    }
+
+    section#team {
+        padding-top: 4rem;
+        padding-bottom: 7rem;
+    }
+
+    article#news {
+        margin-top: -2rem;
+    }
+
+    article#news div:first-of-type {
+        margin-bottom: 0;
+    }
+
+    article#news div.col {
+        padding: 0 2rem;
+    }
+
+    article#news img {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    div#contact {
+        margin-top: 3rem;
+    }
+
+    div#contact div {
+        padding-bottom: 3rem;
+    }
+
+    div#contact img {
+        margin-top: 4rem;
+        margin-left: 0.5rem;
+    }
+
+    div#contact h4 {
+        margin-top: 5rem;
+        font-size: 1.2rem;
+    }
+
+    div#bottom_nav {
+        margin-top: 24rem;
+        padding-bottom: 3rem;
+    }
+
+    div#bottom_nav div {
+        padding-bottom: 3rem;
+    }
+
+    div#copyrights {
+        flex-direction: column;
+    }
+
+    div#copyrights img {
+        padding-top: 0;
+        padding-right: 0;
+        margin: 1rem auto 0 auto;
+        max-width: 30%;
+    }
+
+    div#copyrights p {
+        padding-top: 1.3rem;
+        text-align: center;
+    }
+
+    section#our_courses button {
+        padding: 10px 30px;
+    }
+
+    section#our_courses section:last-of-type {
+        padding-bottom: 5rem;
+    }
+
+    section#news div.row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section#news div.images {
+        width: 100%;
+        align-content: center;
+    }
+
+    article#parents {
+        background-image: url("../images/mesh2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 720px;
+        margin-bottom: 10rem;
+    }
+
+    article#parents img {
+        display: block;
+        margin: 0 auto;
+        max-width: 60%;
+        float: none !important;
+    }
+
+    article#parents h2 {
+        padding: 1rem;
+    }
+
+    article#parents p, article#parents h5 {
+        padding-left: 0;
+    }
+
+    article#parents p {
+        padding-top: 1rem;
+        padding-bottom: 0;
+    }
+
+}
+
+@media screen and (max-width: 443px) {
+    section#recent_post iframe {
+        height: 177px;
+    }
+
+    #nav_contact ul li {
+        padding: 3px !important;
+    }
+
+    section#hero img {
+        margin-top: 0.2rem !important;
+    }
+
+    article h2 {
+        font-size: 2rem;
+    }
+
+    section#news_courses h3 {
+        padding-top: 0;
+        margin-top: 1.5rem;
+    }
+
+    article#parents {
+        height: 750px;
+    }
+
+    article#parents img {
+        max-width: 75%;
+    }
+
+    .text-logo-odk-small {
+        font-size: medium;
+    }
+
+    main .dots {
+        background-position-y: 73%;
+        background-position-x: -44%;
+    }
+
+    article#news h4 {
+        font-size: 1.2rem;
+    }
+
+    section#dances_news, section#english_news, section#painting_news, section#singing_news img {
+
+        max-width: 100%;
+        height: auto;
+    }
+
+    section#dances_news, section#english_news, section#painting_news, section#singing_news iframe {
+
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+
+/*Phones*/
+@media screen and (max-width: 423px) {
+    section#timetable {
+        padding-top: 1rem;
+    }
+
+    section#team {
+        padding-top: 2rem;
+    }
+
+    section#our_courses h2 {
+        padding-top: 2rem;
+    }
+
+    section#dances_news {
+        margin-top: 2rem;
+    }
+
+    section#news div.images a {
+        max-width: 100%;
+    }
+
+    section#dances_news button, section#english_news button, section#painting_news button, section#singing_news button {
+        padding: 0.6rem;
+    }
+
+}
+
+@media screen and (max-width: 423px) and (min-width: 320px) {
+    #nav_contact ul li:first-child {
+        margin: 0 auto;
+    }
+
+    #nav_contact ul li:nth-child(2) {
+        margin: 0 auto;
+    }
+
+    #nav_contact ul li:nth-child(3) {
+        margin: 0 auto;
+    }
+
+    section#hero img {
+        width: 90%;
+        margin-left: 1.2rem;
+        margin-top: -0.6rem !important;
+    }
+
+    main section h2 {
+        font-size: 2rem;
+    }
+
+    article#news {
+        margin-top: -5rem;
+        padding-bottom: 6rem;
+    }
+
+    div#contact {
+        margin-top: -2rem;
+    }
+
+    section#our_courses section:last-of-type {
+        padding-bottom: 10rem;
+    }
+
+    section#our_courses h3 {
+        font-size: 1.5rem;
+    }
+
+    section#our_courses h2 {
+        padding-top: 3.5rem;
+    }
+
+    div.last-publications {
+        margin-bottom: 5rem;
+    }
+
+    section#dances_news, section#english_news, section#painting_news, section#singing_news {
+        margin-bottom: 10rem;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    img#logo {
+        max-width: 60%;
+        padding-top: 0;
+    }
+
+    #main_nav li {
+        padding: 2px 10px;
+        font-size: 0.9rem;
+    }
+
+    #nav_contact {
+        padding: 0.5rem 0;
+    }
+
+    #nav_contact ul {
+        font-size: 0.9rem;
+    }
+
+    section#hero {
+        padding: 3rem 0;
+    }
+
+    section#hero div {
+        padding-left: 4rem;
+    }
+
+    section#hero h1 {
+        margin-top: 0;
+    }
+
+    section h2 {
+        font-size: 2rem;
+    }
+
+    main section#about_us p {
+        text-align: left;
+    }
+
+    section#hero img {
+        margin-top: 0 !important;
+        margin-left: -1rem;
+    }
+
+    section#hero button {
+        font-size: 0.8rem;
+        padding: 10px 22px;
+    }
+
+    main section#teachers img {
+        max-width: 70%;
+        margin-bottom: 2rem;
+    }
+
+    main section#teachers h4 {
+        font-size: 1.2rem;
+    }
+
+    main section#teachers button {
+        margin-top: 2.5rem;
+        font-size: 0.8rem;
+        padding: 10px 40px;
+    }
+
+    section#team img {
+        max-width: 100%;
+        padding: 0 2rem;
+    }
+
+    section#our_courses button {
+        padding: 10px 20px;
+    }
+
+    main section#courses {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #books {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        width: 100%;
+        height: 60%;
+    }
+
+    .cyan-book {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+
+    }
+
+    article#parents {
+        background-image: url("../images/mesh2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-bottom: 10rem;
+        margin-top: 8rem;
+    }
+
+    article#parents h2 {
+        padding: 1rem;
+    }
+
+    article#parents h5 {
+        padding-left: 0;
+    }
+
+    article#parents img {
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+        float: none !important;
+        max-width: 50%;
+    }
+
+    article#parents p {
+        margin-top: 1rem;
+        line-height: 1.5rem;
+        padding-left: 0;
+        padding-bottom: 0;
+    }
+
+    article#news {
+        margin-top: -3rem;
+    }
+
+    article#news img {
+        margin-bottom: 2rem;
+        float: none;
+    }
+
+    article h2 {
+        margin-bottom: 3rem;
+    }
+
+    article#news a {
+        font-size: 1.3rem;
+    }
+
+    article.post-1, article.post-2 {
+        max-width: 100%;
+    }
+
+    section#news div.row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section#news div.images {
+        width: 100%;
+        align-content: center;
+    }
+
+
+    section#news button {
+        padding: 10px 25px;
+    }
+
+    section#news h3 {
+        font-size: 1.4rem;
+        padding: 0 1rem
+    }
+
+    section#news .post-date {
+        padding: 0 1rem;
+    }
+
+    section#news div.col-4 {
+        max-width: 100%;
+    }
+
+    div#contact {
+        height: 700px;
+        margin-top: 5rem;
+    }
+
+    div#contact h4 {
+        font-size: 1.2rem;
+    }
+
+    div#contact img {
+        display: block;
+        margin-top: 1rem;
+        max-width: 15%;
+    }
+
+    div#bottom_nav {
+        padding-bottom: 3rem;
+    }
+
+    div#bottom_nav div {
+        padding: 1rem 2rem;
+    }
+
+    div#copyrights img {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        padding-right: 1rem;
+        max-width: 100%;
+    }
+
+    .text-logo-odk-small {
+        margin-bottom: 13px;
+    }
+
+}
+
